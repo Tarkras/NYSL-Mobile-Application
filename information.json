@@ -1,0 +1,122 @@
+{
+    "information": [{
+            "date": "09/01/2019",
+            "teams": "U1 and U4",
+            "location": "AJ Katzenmaier",
+            "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "09/01/2019",
+            "teams": "U3 and U2",
+            "location": "Greenbay",
+            "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "09/08/2019",
+            "teams": "U5 and U6",
+            "location": "Howard A Yeager",
+            "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "09/08/2019",
+            "teams": "U6 and U1",
+            "location": "Marjorie P Hart",
+            "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "09/15/2019",
+            "teams": "U2 and U4",
+            "location": "North",
+            "location_url": "https://goo.gl/maps/vybJ2nCvPRgyFhtVA",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "09/15/2019",
+            "teams": "U3 and U5",
+            "location": "AJ Katzenmaier",
+            "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "09/22/2019",
+            "teams": "U1 and U3",
+            "location": "South",
+            "location_url": "https://goo.gl/maps/3tXCfDhmPpCjCmkT6",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "09/22/2019",
+            "teams": "U2 and U6",
+            "location": "Howard A Yeager",
+            "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "09/25/2019",
+            "teams": "U4 and U5",
+            "location": "Greenbay",
+            "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "10/06/2019",
+            "teams": "U2 and U5",
+            "location": "Marjorie P Hart",
+            "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "10/06/2019",
+            "teams": "U1 and U6",
+            "location": "South",
+            "location_url": "https://goo.gl/maps/3tXCfDhmPpCjCmkT6",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "10/08/2019",
+            "teams": "U3 and U4",
+            "location": "Howard A Yeager",
+            "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "10/08/2019",
+            "teams": "U5 and U1",
+            "location": "Greenbay",
+            "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "10/20/2019",
+            "teams": "U6 and U3",
+            "location": "North",
+            "location_url": "https://goo.gl/maps/vybJ2nCvPRgyFhtVA",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "10/20/2019",
+            "teams": "U2 and U4",
+            "location": "Marjorie P Hart",
+            "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
+            "time": "1:00 p.m."
+        },
+        {
+            "date": "10/27/2019",
+            "teams": "U3 and U1",
+            "location": "AJ Katzenmaier",
+            "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
+            "time": "9:30 a.m."
+        },
+        {
+            "date": "10/27/2019",
+            "teams": "U5 and U6",
+            "location": "Howard A Yeager",
+            "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
+            "time": "1:00 p.m."
+        }
+    ]
+}
