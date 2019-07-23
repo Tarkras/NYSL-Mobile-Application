@@ -1,7 +1,7 @@
 <template>
   <v-footer height="auto" fixed app>
     <v-layout justify-center row wrap elevation-24>
-      <v-flex dark py-3 text-xs-center xs12>
+      <v-flex dark py-2 text-xs-center xs12>
         &copy;2019 —
         <strong>North Youth Soccer League</strong>
       </v-flex>

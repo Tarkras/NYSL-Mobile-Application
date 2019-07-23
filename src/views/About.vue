@@ -1,6 +1,8 @@
 <template>
-  <v-container>
-    <h1 class="display-1 font-weight-bold">About NYSL</h1>
+  <v-container py-5 px-4>
+    <v-layout justify-center>
+      <h1 class="display-1 font-weight-bold">About NYSL</h1>
+    </v-layout>
     <v-container px-3>
       <h2>Mission</h2>
       <v-layout ml-3>

@@ -1,9 +1,15 @@
 <template>
-  <v-container>
-    <h1 class="display-1 font-weight-bold">Registration Form</h1>
+  <!-- ** FORM, sends information of a new member to the database. ** -->
+  <v-container py-5 px-4>
+    <v-layout column align-center justify-center>
+      <h1 class="display-1 font-weight-bold">Registration Form</h1>
+      <h3 class="text_style font-italic subheading mt-4">
+        All fields marked with a * are obligatory.
+      </h3>
+    </v-layout>
     <v-form v-model="valid" lazy-validation ref="form">
       <v-container fluid>
-        <h3 class="text_style font-italic subheading">All fields marked with a * are obligatory.</h3>
+        <!-- ** Here there are the text fields and buttons to introduce the information requested. ** -->
         <v-layout wrap justify-center>
           <v-flex xs12 sm6 md5 lg5>
             <v-text-field
@@ -59,6 +65,8 @@
               required
             ></v-text-field>
           </v-flex>
+
+          <!-- ** This element allows you to introduce a date with a date picker. ** -->
           <v-flex xs12 sm6 md5 lg5>
             <v-menu
               ref="menu"
@@ -85,8 +93,7 @@
                 v-model="date"
                 :max="new Date().toISOString().substr(0, 10)"
                 min="1950-01-01"
-                @change="save"
-                @input="menu2 = false"
+                @input="menu = false"
               ></v-date-picker>
             </v-menu>
           </v-flex>
@@ -144,7 +151,9 @@
             <v-layout>
               <v-radio-group v-model="grade" :mandatory="false">
                 <v-flex>
-                  <v-radio label="Pre-School" value="pre-school">Pre-School</v-radio>
+                  <v-radio label="Pre-School" value="pre-school"
+                    >Pre-School</v-radio
+                  >
                   <v-radio label="1st" value="1st">1st</v-radio>
                   <v-radio label="2nd" value="2nd">2nd</v-radio>
                 </v-flex>
@@ -161,58 +170,105 @@
         </v-layout>
         <v-layout row justify-center mt-3>
           <v-flex xs12 md10>
-            <h3 class="subheading font-weight-medium">Which elementary schools do you live near?</h3>
+            <h3 class="subheading font-weight-medium">
+              Which elementary schools do you live near?
+            </h3>
             <v-divider></v-divider>
           </v-flex>
         </v-layout>
         <v-layout wrap justify-center>
           <v-flex xs12 sm6 md5 lg5>
-            <v-select v-model="firstschool" dense :items="schools" label="First Closest School"></v-select>
+            <v-select
+              v-model="firstschool"
+              dense
+              :items="schools"
+              label="First Closest School"
+            ></v-select>
           </v-flex>
           <v-flex xs12 sm6 md5 lg5>
-            <v-select v-model="secondschool" dense :items="schools" label="Second Closest School"></v-select>
+            <v-select
+              v-model="secondschool"
+              dense
+              :items="schools"
+              label="Second Closest School"
+            ></v-select>
           </v-flex>
         </v-layout>
         <v-layout row wrap justify-center mt-3>
           <v-flex xs12 sm6 md5 lg5>
-            <h3
-              class="subheading font-weight-medium"
-            >What position(s) do you normally play? (check all that apply)</h3>
+            <h3 class="subheading font-weight-medium">
+              What position(s) do you normally play? (check all that apply)
+            </h3>
             <v-divider></v-divider>
             <v-layout>
               <v-flex>
-                <v-checkbox v-model="normalposition" label="Forward" value="Forward"></v-checkbox>
-                <v-checkbox v-model="normalposition" label="Defense" value="Defense"></v-checkbox>
+                <v-checkbox
+                  v-model="normalposition"
+                  label="Forward"
+                  value="Forward"
+                ></v-checkbox>
+                <v-checkbox
+                  v-model="normalposition"
+                  label="Defense"
+                  value="Defense"
+                ></v-checkbox>
               </v-flex>
               <v-flex>
-                <v-checkbox v-model="normalposition" label="Midfield" value="Midfield"></v-checkbox>
-                <v-checkbox v-model="normalposition" label="Goalkeeper" value="Goalkeeper"></v-checkbox>
+                <v-checkbox
+                  v-model="normalposition"
+                  label="Midfield"
+                  value="Midfield"
+                ></v-checkbox>
+                <v-checkbox
+                  v-model="normalposition"
+                  label="Goalkeeper"
+                  value="Goalkeeper"
+                ></v-checkbox>
               </v-flex>
             </v-layout>
           </v-flex>
           <v-flex xs12 sm6 md5 lg5>
-            <h3
-              class="subheading font-weight-medium"
-            >What position(s) do you normally play? (check all that apply)</h3>
+            <h3 class="subheading font-weight-medium">
+              What position(s) do you normally play? (check all that apply)
+            </h3>
             <v-divider></v-divider>
             <v-layout>
               <v-flex>
-                <v-checkbox v-model="desiredposition" label="Forward" value="Forward"></v-checkbox>
-                <v-checkbox v-model="desiredposition" label="Defense" value="Defense"></v-checkbox>
+                <v-checkbox
+                  v-model="desiredposition"
+                  label="Forward"
+                  value="Forward"
+                ></v-checkbox>
+                <v-checkbox
+                  v-model="desiredposition"
+                  label="Defense"
+                  value="Defense"
+                ></v-checkbox>
               </v-flex>
               <v-flex>
-                <v-checkbox v-model="desiredposition" label="Midfield" value="Midfield"></v-checkbox>
-                <v-checkbox v-model="desiredposition" label="Goalkeeper" value="Goalkeeper"></v-checkbox>
+                <v-checkbox
+                  v-model="desiredposition"
+                  label="Midfield"
+                  value="Midfield"
+                ></v-checkbox>
+                <v-checkbox
+                  v-model="desiredposition"
+                  label="Goalkeeper"
+                  value="Goalkeeper"
+                ></v-checkbox>
               </v-flex>
             </v-layout>
           </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>
+          <!-- ** Checkbox, disables the radiobuttons below it if it is checked. ** -->
           <v-flex xs12 md10 lg10 class="pb-0">
             <h3 class="subheading font-weight-medium">Uniform*</h3>
             <v-divider></v-divider>
             <v-layout row wrap pt-1 mt-3>
-              <h3 class="subheading font-weight-medium">Do you have a uniform?</h3>
+              <h3 class="subheading font-weight-medium">
+                Do you have a uniform?
+              </h3>
               <v-checkbox
                 v-model="uniform"
                 :mandatory="false"
@@ -226,7 +282,9 @@
         </v-layout>
         <v-layout row wrap justify-center>
           <v-flex xs12 md10 lg10 class="pb-0">
-            <h3 class="subheading font-weight-medium">If you don't have one mark the size.</h3>
+            <h3 class="subheading font-weight-medium">
+              If you don't have one mark the size.
+            </h3>
             <v-divider></v-divider>
           </v-flex>
         </v-layout>
@@ -235,17 +293,30 @@
             <h3 class="subheading font-weight-medium">Jersey Size:*</h3>
             <v-divider></v-divider>
             <v-layout>
-              <v-radio-group v-model="jersey" :mandatory="false" :disabled="disabled" row>
+              <v-radio-group
+                v-model="jersey"
+                :mandatory="false"
+                :disabled="disabled"
+                row
+              >
                 <v-flex>
-                  <v-radio label="Youth Small" value="pre-school">Youth Small</v-radio>
-                  <v-radio label="Youth Medium" value="youth medium">Youth Medium</v-radio>
-                  <v-radio label="Youth Large" value="youth large">Youth Large</v-radio>
+                  <v-radio label="Youth Small" value="pre-school"
+                    >Youth Small</v-radio
+                  >
+                  <v-radio label="Youth Medium" value="youth medium"
+                    >Youth Medium</v-radio
+                  >
+                  <v-radio label="Youth Large" value="youth large"
+                    >Youth Large</v-radio
+                  >
                   <v-radio label="Small" value="small">Small</v-radio>
                 </v-flex>
                 <v-flex>
                   <v-radio label="Medium" value="medium">Medium</v-radio>
                   <v-radio label="Large" value="large">Large</v-radio>
-                  <v-radio label="Extra-Large" value="extra-large">Extra-Large</v-radio>
+                  <v-radio label="Extra-Large" value="extra-large"
+                    >Extra-Large</v-radio
+                  >
                 </v-flex>
               </v-radio-group>
             </v-layout>
@@ -254,17 +325,30 @@
             <h3 class="subheading font-weight-medium">Shorts Size:*</h3>
             <v-divider></v-divider>
             <v-layout>
-              <v-radio-group v-model="shorts" :mandatory="false" :disabled="disabled" row>
+              <v-radio-group
+                v-model="shorts"
+                :mandatory="false"
+                :disabled="disabled"
+                row
+              >
                 <v-flex>
-                  <v-radio label="Youth Small" value="pre-school">Youth Small</v-radio>
-                  <v-radio label="Youth Medium" value="youth medium">Youth Medium</v-radio>
-                  <v-radio label="Youth Large" value="youth large">Youth Large</v-radio>
+                  <v-radio label="Youth Small" value="youth small"
+                    >Youth Small</v-radio
+                  >
+                  <v-radio label="Youth Medium" value="youth medium"
+                    >Youth Medium</v-radio
+                  >
+                  <v-radio label="Youth Large" value="youth large"
+                    >Youth Large</v-radio
+                  >
                   <v-radio label="Small" value="small">Small</v-radio>
                 </v-flex>
                 <v-flex>
                   <v-radio label="Medium" value="medium">Medium</v-radio>
                   <v-radio label="Large" value="large">Large</v-radio>
-                  <v-radio label="Extra-Large" value="extra-large">Extra-Large</v-radio>
+                  <v-radio label="Extra-Large" value="extra-large"
+                    >Extra-Large</v-radio
+                  >
                 </v-flex>
               </v-radio-group>
             </v-layout>
@@ -306,6 +390,8 @@
               required
             ></v-text-field>
           </v-flex>
+
+          <!-- ** This element allows you to introduce a date with a date picker. ** -->
           <v-flex xs12 sm4 md4 lg4>
             <v-menu
               ref="menu2"
@@ -331,15 +417,17 @@
                 ref="picker2"
                 v-model="date2"
                 :max="new Date().toISOString().substr(0, 10)"
-                @change="formSave"
                 @input="menu2 = false"
               ></v-date-picker>
             </v-menu>
           </v-flex>
         </v-layout>
-
-        <v-btn :disabled="!valid" @click="submit">submit</v-btn>
-        <v-btn @click="reset">clear</v-btn>
+        <v-layout row justify-center>
+          <!--** Sends the data to the database. **-->
+          <v-btn :disabled="!valid" @click="submitData">submit</v-btn>
+          <!--** Clear the data of the buttons and text fields with an event linked to a method. **-->
+          <v-btn @click="reset">clear</v-btn>
+        </v-layout>
       </v-container>
     </v-form>
   </v-container>
@@ -347,6 +435,7 @@
 
 <script>
 import { setTimeout } from "timers"
+import * as firebase from "firebase"
 export default {
   data: () => ({
     disabled: false,
@@ -374,12 +463,12 @@ export default {
     zipcode: "",
     zipRules: [
       value => !!value || "Required.",
-      value => value.length <= 40 || "Max 40 characters"
+      value => value.length <= 10 || "Max 10 characters"
     ],
     guardian: "",
     guardianRules: [
       value => !!value || "Required.",
-      value => value.length <= 10 || "Max 10 characters"
+      value => value.length <= 40 || "Max 40 characters"
     ],
     phone: "",
     phoneRules: [
@@ -419,26 +508,68 @@ export default {
   }),
   watch: {
     menu(val) {
+      // Method for the first date picker. Allows you to picke first the year, then the month
+      // and finally the day.
       val && setTimeout(() => (this.$refs.picker.activePicker = "YEAR"))
     },
     menu2(val) {
-      val && setTimeout(() => (this.$refs.picker2.activePicker = "YEAR"))
+      // Method for the second date picker. Allows to pick the date directly.
+      val && setTimeout(() => (this.$refs.picker2.activePicker = "DATE"))
     }
   },
   methods: {
     save(date) {
+      // Saves the date in the text field for the first date picker.
       this.menu.save(date)
     },
     formSave(date2) {
-      this.menu2.save(date2)
+      // Saves the date in the text field for the second date picker.
+      this.save(date2)
     },
     reset() {
+      // It clears the data in the textfields.
       this.$refs.form.reset()
     },
     checkDisabled() {
+      // It disables radiobuttons if a checkbox is checked.
       this.disabled = !this.disabled
       this.jersey = ""
       this.shorts = ""
+    },
+    submitData() {
+      // Sends the data to the database as an object.
+      let objSend = {
+        name: this.firstname,
+        last_name: this.lastname,
+        street_address: this.streetaddress,
+        city: this.city,
+        zip_code: this.zipcode,
+        birthday_date: this.date,
+        parent_guardian: this.guardian,
+        contact_phone: this.phone,
+        contact_email: this.email,
+        gender: this.gender,
+        grade: this.grade,
+        first_school: this.firstschool,
+        second_school: this.secondschool,
+        normal_position: this.normalposition,
+        desired_position: this.desiredposition,
+        uniform: this.uniform,
+        jersey_size: this.jersey,
+        shorts_size: this.shorts,
+        guardian_signature: this.guardiansignature,
+        creation_date: this.date2
+      }
+      firebase
+        .database()
+        .ref("form")
+        .push(objSend)
+        .then(() => {
+          alert("Yout data has been successfully uploaded.")
+        })
+        .catch(error => {
+          alert(error)
+        })
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+    "events": [{
+            "date": "August 4",
+            "title": "NYSL Fundraiser",
+            "image": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/events%2Ffund-5bfc3776c9e77c00519dc4c9.jpg?alt=media&token=041d5d30-971f-4a3f-b5f4-05984182dcf7",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "date": "August 16",
+            "title": "Season Kick-off: Meet the teams",
+            "image": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/events%2Fmeet-teams.png?alt=media&token=b830c7ab-10fd-4ee7-b55e-7292594ee126",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "date": "September 1",
+            "title": "First Game of the Season (Check Game Schedule for details)",
+            "image": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/events%2Fdesign2_image1.jpg?alt=media&token=5cd2a81e-7619-4786-91f3-72474ff590df",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+
+}

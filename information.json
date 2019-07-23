@@ -1,122 +1,224 @@
 {
     "information": [{
             "date": "09/01/2019",
-            "teams": "U1 and U4",
+            "team1": "Absolute Soccer",
+            "team2": "Eagles",
             "location": "AJ Katzenmaier",
             "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4977.3693258499015!2d-87.6302813!3d41.9005987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ+Katzenmaier+Elementary!5e1!3m2!1ses!2ses!4v1562765732019!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u4.png?alt=media&token=cab459e8-d382-4e90-b118-748845caa3ae"
         },
         {
             "date": "09/01/2019",
-            "teams": "U3 and U2",
+            "team1": "FC Heat Elite",
+            "team2": "Coyotes El Paso",
             "location": "Greenbay",
             "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3518.5602933392133!2d-87.6423601!3d41.914037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e1!3m2!1ses!2ses!4v1562766049236!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u2.png?alt=media&token=67d8c913-9c83-4ee3-baf5-931f25e87d28"
         },
         {
             "date": "09/08/2019",
-            "teams": "U5 and U6",
+            "team1": "EarthQuakes",
+            "team2": "Spartans",
             "location": "Howard A Yeager",
             "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5704.596515191051!2d-87.8579195!3d42.316239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward+A.+Yeager+School+(PREK-K)!5e1!3m2!1ses!2ses!4v1562766212683!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe"
         },
         {
             "date": "09/08/2019",
-            "teams": "U6 and U1",
+            "team1": "Spartans",
+            "team2": "Absolute Soccer",
             "location": "Marjorie P Hart",
             "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3396.62998614429!2d-87.8488431!3d42.3273436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie+P+Hart+Elementary+School!5e1!3m2!1ses!2ses!4v1562787879622!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc"
         },
         {
             "date": "09/15/2019",
-            "teams": "U2 and U4",
+            "team1": "Coyotes El Paso",
+            "team2": "Eagles",
             "location": "North",
             "location_url": "https://goo.gl/maps/vybJ2nCvPRgyFhtVA",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.64844464089!2d-87.84181234165021!3d42.33715578622509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sEvelyn+Alexander+Elementary+School!5e1!3m2!1ses!2ses!4v1562788013123!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u2.png?alt=media&token=67d8c913-9c83-4ee3-baf5-931f25e87d28",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u4.png?alt=media&token=cab459e8-d382-4e90-b118-748845caa3ae"
         },
         {
             "date": "09/15/2019",
-            "teams": "U3 and U5",
+            "team1": "FC Heat Elite",
+            "team2": "EarthQuakes",
             "location": "AJ Katzenmaier",
             "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4977.3693258499015!2d-87.6302813!3d41.9005987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ+Katzenmaier+Elementary!5e1!3m2!1ses!2ses!4v1562765732019!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd"
         },
         {
             "date": "09/22/2019",
-            "teams": "U1 and U3",
+            "team1": "Absolute Soccer",
+            "team2": "FC Heat Elite",
             "location": "South",
             "location_url": "https://goo.gl/maps/3tXCfDhmPpCjCmkT6",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4833.6657495130285!2d-87.6546788!3d41.9193759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196e269cbf%3A0x1caabcbc4893f0da!2sSt+James+Lutheran+School!5e1!3m2!1ses!2ses!4v1562788159693!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51"
         },
         {
             "date": "09/22/2019",
-            "teams": "U2 and U6",
+            "team1": "Coyotes El Paso",
+            "team2": "Spartans",
             "location": "Howard A Yeager",
             "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5704.596515191051!2d-87.8579195!3d42.316239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward+A.+Yeager+School+(PREK-K)!5e1!3m2!1ses!2ses!4v1562766212683!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u2.png?alt=media&token=67d8c913-9c83-4ee3-baf5-931f25e87d28",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe"
         },
         {
             "date": "09/25/2019",
-            "teams": "U4 and U5",
+            "team1": "Eagles",
+            "team2": "EarthQuakes",
             "location": "Greenbay",
             "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3518.5602933392133!2d-87.6423601!3d41.914037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e1!3m2!1ses!2ses!4v1562766049236!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u4.png?alt=media&token=cab459e8-d382-4e90-b118-748845caa3ae",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd"
         },
         {
             "date": "10/06/2019",
-            "teams": "U2 and U5",
+            "team1": "Coyotes El Paso",
+            "team2": "EarthQuakes",
             "location": "Marjorie P Hart",
             "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3396.62998614429!2d-87.8488431!3d42.3273436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie+P+Hart+Elementary+School!5e1!3m2!1ses!2ses!4v1562787879622!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u2.png?alt=media&token=67d8c913-9c83-4ee3-baf5-931f25e87d28",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd"
         },
         {
             "date": "10/06/2019",
-            "teams": "U1 and U6",
+            "team1": "Absolute Soccer",
+            "team2": "Spartans",
             "location": "South",
             "location_url": "https://goo.gl/maps/3tXCfDhmPpCjCmkT6",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4833.6657495130285!2d-87.6546788!3d41.9193759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196e269cbf%3A0x1caabcbc4893f0da!2sSt+James+Lutheran+School!5e1!3m2!1ses!2ses!4v1562788159693!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe"
         },
         {
             "date": "10/08/2019",
-            "teams": "U3 and U4",
+            "team1": "FC Heat Elite",
+            "team2": "Eagles",
             "location": "Howard A Yeager",
             "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5704.596515191051!2d-87.8579195!3d42.316239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward+A.+Yeager+School+(PREK-K)!5e1!3m2!1ses!2ses!4v1562766212683!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u4.png?alt=media&token=cab459e8-d382-4e90-b118-748845caa3ae"
         },
         {
             "date": "10/08/2019",
-            "teams": "U5 and U1",
+            "team1": "EarthQuakes",
+            "team2": "Absolute Soccer",
             "location": "Greenbay",
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3518.5602933392133!2d-87.6423601!3d41.914037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e1!3m2!1ses!2ses!4v1562766049236!5m2!1ses!2ses",
             "location_url": "https://goo.gl/maps/KZAzeM2jVcxG3nGd8",
-            "time": "1:00 p.m."
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc"
         },
         {
             "date": "10/20/2019",
-            "teams": "U6 and U3",
+            "team1": "Spartans",
+            "team2": "FC Heat Elite",
             "location": "North",
             "location_url": "https://goo.gl/maps/vybJ2nCvPRgyFhtVA",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.64844464089!2d-87.84181234165021!3d42.33715578622509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sEvelyn+Alexander+Elementary+School!5e1!3m2!1ses!2ses!4v1562788013123!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51"
         },
         {
             "date": "10/20/2019",
-            "teams": "U2 and U4",
+            "team1": "Coyotes El Paso",
+            "team2": "Eagles",
             "location": "Marjorie P Hart",
             "location_url": "https://goo.gl/maps/bgFLkjRwKU7sF1RU7",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3396.62998614429!2d-87.8488431!3d42.3273436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie+P+Hart+Elementary+School!5e1!3m2!1ses!2ses!4v1562787879622!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u2.png?alt=media&token=67d8c913-9c83-4ee3-baf5-931f25e87d28",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u4.png?alt=media&token=cab459e8-d382-4e90-b118-748845caa3ae"
         },
         {
             "date": "10/27/2019",
-            "teams": "U3 and U1",
+            "team1": "FC Heat Elite",
+            "team2": "Absolute Soccer",
             "location": "AJ Katzenmaier",
             "location_url": "https://goo.gl/maps/VYxwzJRL2WSMJVfv7",
-            "time": "9:30 a.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4977.3693258499015!2d-87.6302813!3d41.9005987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ+Katzenmaier+Elementary!5e1!3m2!1ses!2ses!4v1562765732019!5m2!1ses!2ses",
+            "time": "9:30 a.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u3.png?alt=media&token=e17ba5c7-82ab-4262-af6d-eb8696c0ca51",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u1.png?alt=media&token=c3dca052-bade-47fe-9179-46436f2177cc"
         },
         {
             "date": "10/27/2019",
-            "teams": "U5 and U6",
+            "team1": "EarthQuakes",
+            "team2": "Spartans",
             "location": "Howard A Yeager",
             "location_url": "https://goo.gl/maps/J4LBUD5DvPTMn6P99",
-            "time": "1:00 p.m."
+            "frame": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5704.596515191051!2d-87.8579195!3d42.316239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward+A.+Yeager+School+(PREK-K)!5e1!3m2!1ses!2ses!4v1562766212683!5m2!1ses!2ses",
+            "time": "1:00 p.m.",
+            "info": "-",
+            "results": " - vs. - ",
+            "image1": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u5.png?alt=media&token=1d113858-6f2a-4aeb-8c66-133a552e5edd",
+            "image2": "https://firebasestorage.googleapis.com/v0/b/nysl-web-application-e6a52.appspot.com/o/u6.png?alt=media&token=5cfde62a-ca48-49a4-9cec-ec4f393bbefe"
         }
     ]
 }

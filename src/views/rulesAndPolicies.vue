@@ -1,6 +1,9 @@
 <template>
-  <v-container>
-    <h1 class="display-1 font-weight-bold">Rules &amp; Policies</h1>
+  <!-- ** SIMPLE LIST **-->
+  <v-container py-5 px-4>
+    <v-layout justify-center>
+      <h1 class="display-1 font-weight-bold">Rules &amp; Policies</h1>
+    </v-layout>
     <v-container px-2>
       <v-layout pb-2 column align-center class="text-xs-center">
         <v-layout pb-2>
